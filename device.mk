@@ -9,7 +9,8 @@ $(call inherit-product, vendor/xiaomi/miuicamera-marble/miuicamera-marble-vendor
 
 # Overlays
 PRODUCT_PACKAGES += \
-    MiuiCameraOverlay
+    MiuiCameraOverlay \
+    MiuiScannerQrOverlay
 
 # Public libraries
 PRODUCT_COPY_FILES += \
